@@ -21,8 +21,6 @@ const authRoutes = require('./routes/authRoutes');
 
 const schedulePosts = require('./cron/scheduler');
 
-
-
 // Connect to MongoDB
 connectDB();
 
